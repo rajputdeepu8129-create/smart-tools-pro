@@ -1,0 +1,153 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Tools Pro</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+padding:20px;
+text-align:center;
+background:#1e293b;
+}
+
+header h1{
+font-size:32px;
+color:#38bdf8;
+}
+
+header p{
+margin-top:10px;
+color:#cbd5e1;
+}
+
+.hero{
+padding:50px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+color:#94a3b8;
+}
+
+.tools{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:30px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+color:#38bdf8;
+margin-bottom:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:#38bdf8;
+color:black;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#1e293b;
+margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Smart Tools Pro</h1>
+<p>Free Online Tools For Everyone</p>
+</header>
+
+<section class="hero">
+<h2>All Essential Tools In One Place</h2>
+<p>Fast, Free and Easy To Use Online Tools</p>
+</section>
+
+<section class="tools">
+
+<div class="card">
+<h3>Age Calculator</h3>
+<p>Calculate your exact age instantly.</p>
+<a href="#" class="btn">Open Tool</a>
+</div>
+
+<div class="card">
+<h3>EMI Calculator</h3>
+<p>Calculate loan EMI easily.</p>
+<a href="#" class="btn">Open Tool</a>
+</div>
+
+<div class="card">
+<h3>BMI Calculator</h3>
+<p>Check your body mass index.</p>
+<a href="#" class="btn">Open Tool</a>
+</div>
+
+<div class="card">
+<h3>QR Generator</h3>
+<p>Create QR codes instantly.</p>
+<a href="#" class="btn">Open Tool</a>
+</div>
+
+<div class="card">
+<h3>Password Generator</h3>
+<p>Generate strong passwords.</p>
+<a href="#" class="btn">Open Tool</a>
+</div>
+
+<div class="card">
+<h3>Word Counter</h3>
+<p>Count words and characters.</p>
+<a href="#" class="btn">Open Tool</a>
+</div>
+
+</section>
+
+<footer>
+© 2026 Smart Tools Pro | All Rights Reserved
+</footer>
+
+</body>
+</html>
